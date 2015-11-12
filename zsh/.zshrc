@@ -43,3 +43,4 @@ for file in ~/.dotfiles/bin/func/*.sh; do source $file; done
 #Aliai
 alias g=git
 alias remotes='cd /Volumes'
+alias scratch='vi ~/GoogleDrive/notes/$( date '+%Y-%m-%d_%H-%M-%S' ).txt'
